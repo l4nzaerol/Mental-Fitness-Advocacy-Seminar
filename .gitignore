@@ -31,3 +31,4 @@ pnpm-debug.log*
 
 # Git disabled (nested repo artifacts)
 .git_disabled/
+.vercel
