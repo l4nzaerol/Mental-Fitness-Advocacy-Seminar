@@ -18,7 +18,7 @@
 
 const CONFIG = {
   /** Spreadsheet ID from the URL: https://docs.google.com/spreadsheets/d/<ID>/edit */
-  spreadsheetId: "1uKvuSwkBpDyTbkVsRTG6aqMG8YEK7334K30A8U26jSw",
+  spreadsheetId: "1voC6OkdqGtADsM_ExK9Aovqo5kFNcdzbTZuVUApi8jo",
   /** Matches the Form question "Full Name:" (colon optional in the sheet header) */
   nameHeader: "Full Name:",
   /** Matches the Form question "Email Address" */
@@ -27,7 +27,7 @@ const CONFIG = {
   /** Public frontend origin, no trailing slash */
   frontendUrl: "https://YOUR-FRONTEND-URL",
   sendEmailWithLink: false,
-  emailSubject: "Your Student Leaders' Investiture e-certificate",
+  emailSubject: "Your Mental Fitness Awareness Seminar e-certificate",
 };
 
 function doGet(e) {
