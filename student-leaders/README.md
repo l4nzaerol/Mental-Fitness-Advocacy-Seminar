@@ -27,7 +27,7 @@ Copy `.env.example` to `.env` and fill in:
 
 Seminar wording and name placement live in `src/config.ts`.
 
-The official template lives at `public/img/STUDENT INV.png` and is referenced in `src/config.ts` via `certificateLayout.templateUrl`. Adjust `certificateLayout.name` (`x` / `y` are 0–1 positions on the image) to align the recipient name.
+The official template lives at `public/img/MENTAL-FITNESS.png` and is referenced in `src/config.ts` via `certificateLayout.templateUrl`. Adjust `certificateLayout.name` (`x` / `y` are 0–1 positions on the image) to align the recipient name.
 
 Deploy the `dist` folder to any static host (Vercel, Netlify, GitHub Pages).
 
@@ -59,4 +59,4 @@ https://docs.google.com/forms/d/e/1FAIpQLSeAd5ECP7PPRBcXGZMgS-Lj1Nb1_u7BGGYScanw
 
 Name on the certificate comes from **Full Name:**. Lookup uses **Email Address**.
 
-When you have the official template, put it at `public/img/STUDENT INV.png`, set `useCustomTemplate: true` in `src/config.ts`, and we will align the name line.
+When you have the official template, put it at `public/img/MENTAL-FITNESS.png`, set `useCustomTemplate: true` in `src/config.ts`, and we will align the name line.

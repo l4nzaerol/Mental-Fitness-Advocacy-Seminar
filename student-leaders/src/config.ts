@@ -1,6 +1,6 @@
 /**
  * Update these values for your seminar.
- * Drop the official e-cert template at public/img/MENTAL FITNESS.png
+ * Drop the official e-cert template at public/img/MENTAL-FITNESS.png
  * and set `useCustomTemplate` to true. Name placement is in fractions of
  * the template width/height so it stays aligned at any download size.
  */
@@ -28,7 +28,7 @@ export const lookup = {
 export const certificateLayout = {
   /** Set true after you add the official template to public/img/ */
   useCustomTemplate: true,
-  templateUrl: "/img/MENTAL FITNESS.png",
+  templateUrl: "/img/MENTAL-FITNESS.png",
   /** Landscape certificate size in CSS pixels (also PNG export size). */
   width: 2000,
   height: 1414,
